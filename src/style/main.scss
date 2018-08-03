@@ -1,0 +1,14 @@
+@import 'variables/custom-bootstrap';
+@import 'variables/fonts';
+@import 'variables/colors';
+
+@import "../../bower_components/bootstrap/scss/bootstrap";
+
+@import "partials/layout";
+@import "partials/base";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/card-event";
+@import "partials/switch";
+@import "partials/buttons";
+@import "partials/typo";

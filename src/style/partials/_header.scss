@@ -1,0 +1,55 @@
+$border-color: #F6F9FC;
+
+.header {
+  background-color: #fff;
+
+  &-inner {
+    display: flex;
+    font-size: 12px;
+  }
+
+  &-timezone {
+    display: flex;
+    text-align: right;
+    padding: 10px 17px;
+    margin: 0 0 0 auto;
+    align-items: center;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+
+    &-link {
+      margin: 0 0 0 3px;
+    }
+
+    span {
+      margin: 0 0 0 3px;
+    }
+  }
+
+  &-time-switch {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+
+    .switch {
+      margin: 0 12px;
+    }
+  }
+
+  &-lang {
+    display: flex;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+  }
+
+  &-logo {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    align-self: center;
+    background: url("../img/logo.png") no-repeat center;
+    background-size: contain;
+
+    display: inline-block;
+  }
+}

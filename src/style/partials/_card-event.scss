@@ -1,0 +1,59 @@
+.card {
+  padding: 35px 0;
+  margin: 0 0 30px 0;
+
+  &:after {
+    content: '';
+    top: 33px;
+    left: 20px;
+    width: 48px;
+    height: 4px;
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 2px;
+    background-color: #ccc;
+  }
+
+  &-regular:after {
+    background-color: $regular;
+  }
+  &-new:after {
+    background-color: $new;
+  }
+  &-short:after {
+    background-color: $short;
+  }
+  &-critical:after {
+    background-color: $critical;
+  }
+  &-financial:after {
+    background-color: $financial;
+  }
+  &-team:after {
+    background-color: $team;
+  }
+
+  &-title {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    line-height: 22px;
+    color: rgba(31,41,52,.7);
+  }
+
+  &-list {
+    font-size: 12px;
+    line-height: 18px;
+
+    >li + li {
+      margin-top: 7px;
+    }
+
+    &-value {
+      color: #71859A;
+    }
+  }
+}
+
+.w-events {
+  padding-top: 20px;
+}

@@ -1,0 +1,27 @@
+.btn-lang {
+  @extend .btn;
+  height: 100%;
+  padding: 22px;
+  font-size: 12px;
+  box-shadow: none!important;
+
+  &:after {
+    content: "\e5cf";
+    display: inline-block;
+    margin-left: .255em;
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+  }
+
+  &[aria-expanded="true"]:after {
+    content: "\e5ce";
+  }
+}
