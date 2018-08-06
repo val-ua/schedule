@@ -1,6 +1,6 @@
 .card {
   padding: 35px 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 16px 0;
 
   &:after {
     content: '';
@@ -41,6 +41,7 @@
   }
 
   &-list {
+    margin: 0;
     color: #ACBFD4;
     font-size: 12px;
     line-height: 18px;
@@ -57,4 +58,17 @@
 
 .w-events {
   padding-top: 20px;
+
+  @media(min-width:768px) {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  [class^="col"] {
+
+    @media(min-width:768px) {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
 }
