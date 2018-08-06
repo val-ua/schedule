@@ -7,4 +7,13 @@
   flex:1 1 auto;
   padding: 70px 0;
   background-color: #F9FCFF;
+
+  &-link {
+    color: $short;
+
+    &:hover,
+    &:focus {
+      color: darken($short, 10%);
+    }
+  }
 }
